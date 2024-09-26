@@ -8,7 +8,11 @@ int main(){
     scanf("%d", &y);  
     printf("Enter z -> ");
     scanf("%d", &z);
-
+        int max = x>y && x>z? x : y>z && y>x? y : z, sum = x>y && x>z? y+z : y>z && y>x? x+z : x+y;
+    if (max>sum)
+        printf("%d\n", max);
+    else
+        printf("%d\n", sum-max);
     // if (x>y && x>z) {
     //     int s=y+z;
     //     if (x>s)
@@ -29,13 +33,5 @@ int main(){
     //         printf("%d\n", s-z);
     // } else 
     //     printf("неприавльные значения\n");
-
-    int max = x>y && x>z? x : y>z && y>x? y : z, sum = x>y && x>z? y+z : y>z && y>x? x+z : x+y;
-    if (max>sum)
-        printf("%d\n", max);
-    else
-        printf("%d\n", sum-max);
-
-
     return 0;
 }

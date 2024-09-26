@@ -8,10 +8,13 @@
 
 
 ## Код программы 
-![code](code-1.png)
+1-ая версия
+![code1](code-1.png)
 
+2-ая версия
+![code2](code2-1.png)
 
-### Рузльтат ее работы
+### Рузльтат работы кода
 ![itog](rezult-1.png)
 
 
@@ -21,12 +24,12 @@
 
 ## Инстуркция 
 1. В терминалие **VSC** напсиать команду ``./a.out``
-2. В случае если не работает написать команды ``gcc proh.c`` => ``./a.out``
+2. В случае если не работает написать команды ``gcc prog.c`` => ``./a.out``
 
 
 ## Использованные источники
-https://www.c-cpp.ru/content/scanf
-https://programforyou.ru/block-diagram-redactor
-https://skillbox.ru/media/code/yazyk-razmetki-markdown-shpargalka-po-sintaksisu-s-primerami/
+https://www.c-cpp.ru/content/scanf 
+https://programforyou.ru/block-diagram-redactor 
+https://skillbox.ru/media/code/yazyk-razmetki-markdown-shpargalka-po-sintaksisu-s-primerami/ 
 
 
