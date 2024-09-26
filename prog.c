@@ -8,25 +8,33 @@ int main(){
     scanf("%d", &y);  
     printf("Enter z -> ");
     scanf("%d", &z);
-    if (x>y && x>z) {
-        int s=y+z;
-        if (x>s)
-            printf("%d\n", x);
-        else
-            printf("%d\n", s-x);
-    } else if (y>x && y>z){
-        int s=x+z;
-        if (y>s)
-            printf("%d\n", y);
-        else
-            printf("%d\n", s-y);
-    } else if (z>x && z>y){
-        int s=x+y;
-        if (z>s)
-            printf("%d\n", z);
-        else
-            printf("%d\n", s-z);
-    } else 
-        printf("неприавльные значения\n");
+    // if (x>y && x>z) {
+    //     int s=y+z;
+    //     if (x>s)
+    //         printf("%d\n", x);
+    //     else
+    //         printf("%d\n", s-x);
+    // } else if (y>x && y>z){
+    //     int s=x+z;
+    //     if (y>s)
+    //         printf("%d\n", y);
+    //     else
+    //         printf("%d\n", s-y);
+    // } else if (z>x && z>y){
+    //     int s=x+y;
+    //     if (z>s)
+    //         printf("%d\n", z);
+    //     else
+    //         printf("%d\n", s-z);
+    // } else 
+    //     printf("неприавльные значения\n");
+
+    int max = x>y && x>z? x : y>z && y>x? y : z, sum = x>y && x>z? y+z : y>z && y>x? x+z : x+y;
+    if (max>s)
+        printf("%d\n", max);
+    else
+        printf("%d\n", s-max)
+
+
     return 0;
 }
